@@ -2,9 +2,101 @@ body {
     background-color: mintcream;
 }
 
+.top {
+    display: flex;
+    flex-basis: 50%;
+    height: 55px;
+    justify-content: space-between;
+}
 
+
+h1 {
+    display: flex;
+    margin: 10px; 
+    color: cornflowerblue;
+}
+
+.navigation {
+    display:flex;
+    padding: 10px;
+    flex-direction: row; 
+   
+}
+
+.button {
+    background-color: #99ccff;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    border-radius: 15%;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+h2 {
+    display: flex; 
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+    color: #66b3ff; 
+
+}
+
+h3 {
+    display: flex; 
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+    color: #66b3ff; 
+
+}
+
+.garden {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-around;
+
+}
+
+.doggos {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-around;
+
+}
+
+.intro {
+    display: flex; 
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+    color: #66b3ff;
+}
+
+
+.website {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    color: #3399ff; 
+}
+
+.button2 {
+    background-color: #99ccff;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    border-radius: 15%;
+    font-size: 15px;
+    text-decoration: none;
+}
 
 img {
-    max-width: 400px;
-    max-height: 400px;
+    
+    display: flex;
+    height: 300px;
+    padding: 10px;
 }

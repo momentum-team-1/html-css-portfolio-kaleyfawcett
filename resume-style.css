@@ -2,11 +2,65 @@ body {
     background-color: mintcream;
 }
 
+.top {
+    display: flex;
+    flex-basis: 50%;
+    height: 55px;
+    justify-content: space-between;
+}
+
+
+h1 {
+    display: flex;
+    margin: 10px; 
+    color: cornflowerblue;
+}
+
+.navigation {
+    display:flex;
+    padding: 10px;
+    flex-direction: row; 
+   
+}
+
+.button {
+    background-color: #99ccff;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    border-radius: 15%;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+h2 {
+    display: flex; 
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+    color: #66b3ff; 
+
+}
+
+.contact {
+    list-style-type: none;
+    padding: 10px;
+    margin: 10px;
+    color: #66b3ff;
+
+}
+
 .experience {
     list-style-type: none;
+    padding: 10px;
+    margin: 10px;
+    color: #66b3ff;
 
 }
 
 .education {
     list-style-type: none;
+    padding: 10px;
+    margin: 10px;
+    color: #66b3ff;
 }
