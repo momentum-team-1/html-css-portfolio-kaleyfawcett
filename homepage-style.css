@@ -1,5 +1,6 @@
 body {
     background-color: mintcream;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 .top {
@@ -33,31 +34,50 @@ h1 {
 
 .profilepic {
     display: flex;
-    height: 350px;
     padding: 10px;
+    margin: 10px;
+    max-width: 100%;
+    height: auto;
     
 }
 
 .intro {
     display: flex; 
-    flex-wrap: wrap;
+    flex-direction: column;
     padding: 10px;
-    margin: 10px;
-    color: #66b3ff; 
+    margin: 10px 35px 10px 35px;
+    color: #66b3ff;
+    flex-basis: 40%;
     
 
 }
 
-.websiteintro {
+.hello {
     display: flex;
+    padding: 10px;
+
+}
+
+.software {
+    display: flex;
+    padding: 10px;
+
+}
+
+.description {
+    display: flex;
+    padding: 10px;
+
+}
+
+.websiteintro {
     padding: 10px;
     margin: 10px;
     color: #66b3ff;
 }
 
 .website {
-    display: flex;
-    padding: 10px;
+    padding: 15px;
     margin: 10px;
     text-decoration: none;
     color: #3399ff; 
@@ -72,4 +92,12 @@ h1 {
     border-radius: 15%;
     font-size: 15px;
     text-decoration: none;
+    padding: 15px;
+}
+
+@media (max-width: 576px) {
+    .body {
+        width: 50%;
+        height: 50%;
+    }
 }
